@@ -58,6 +58,6 @@ Interface inspirada no padrão visual do Twitter:
 
 ---
 
-## 👩‍💻 Desenvolvido por Karoline Souza
+## 👩‍💻 Desenvolvido por 
 
 Karol Souza ✨
