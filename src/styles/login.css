@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LADO ESQUERDO (logo grande) */
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  width: 250px;
+  opacity: 0.8;
+}
+
+/* CARD */
+.card {
+  width: 400px;
+  background: #0f172a;
+  padding: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.card h2 {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* INPUTS */
+.card input {
+  background: transparent;
+  border: 1px solid #334155;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  transition: 0.2s;
+}
+
+.card input:focus {
+  border-color: #1da1f2;
+  box-shadow: 0 0 5px #1da1f2;
+}
+
+/* BOTÃO */
+.card button {
+  background: #1da1f2;
+  border: none;
+  padding: 12px;
+  border-radius: 999px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card button:hover {
+  background: #0d8ddb;
+}
+
+/* TEXTO */
+.register {
+  text-align: center;
+  font-size: 14px;
+}
+
+.register a {
+  color: #1da1f2;
+  text-decoration: none;
+}
