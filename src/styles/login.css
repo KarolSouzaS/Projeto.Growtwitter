@@ -26,9 +26,10 @@ body {
 }
 
 /* Logo */
-.logo {
-  font-size: 32px;
-  margin-bottom: 10px;
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  display: block;
 }
 
 /* Título */
