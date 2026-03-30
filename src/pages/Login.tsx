@@ -10,9 +10,13 @@ export default function Login() {
   }
 
   return (
-    <div style={{ color: 'white', background: '#000', height: '100vh' }}>
-      <h1>Login</h1>
-      <button onClick={handleLogin}>Entrar</button>
+    <div className="container">
+      <div className="box">
+        <h1>Login</h1>
+        <button className="button" onClick={handleLogin}>
+          Entrar
+        </button>
+      </div>
     </div>
   )
 }
