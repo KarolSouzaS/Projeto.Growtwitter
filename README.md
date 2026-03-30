@@ -19,10 +19,6 @@ O **GrowTwitter** é uma aplicação desenvolvida para ajudar usuários a cresce
 
 ---
 
-<img src="https://via.placeholder.com/800x400/000000/1DA1F2?text=GrowTwitter" />
-
----
-
 ## ⚙️ Como rodar o projeto
 
 ```bash
